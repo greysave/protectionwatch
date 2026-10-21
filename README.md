@@ -65,6 +65,10 @@ another and none depends on another at install time.
 
 Today it polls only its own `SyntheticClient`; a client for `protectionsim` or another source would implement the `FleetClient` protocol. Metrics are standard Prometheus text, so any scraper can read them.
 
+## Portfolio case study
+
+See [the verified synthetic case study](CASE_STUDY.md) for a fictional operational scenario, reproducible commands and captured results.
+
 ## Development
 
 ```bash
